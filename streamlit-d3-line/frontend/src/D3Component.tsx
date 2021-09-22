@@ -32,7 +32,7 @@ interface PythonArgs {
 const buildScales = (args: PythonArgs) => {
     const {svgWidth, svgHeight, margin, data}: PythonArgs = args
 
-    const xScale = d3.scaleLinear()
+    const xScale = d3.scaleTime()
         .domain([0, d3.max(data, (d: any) => d[0])])
         .range([margin.left, svgWidth - margin.right])
     const yScale = d3.scaleLinear()

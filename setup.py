@@ -1,14 +1,14 @@
 import setuptools
 
 setuptools.setup(
-    name="streamlit-d3-demo",
+    name="streamlit-d3-line",
     version="0.2.0",
     author="Fanilo ANDRIANASOLO",
     author_email="andfanilo@gmail.com",
     description="Testing D3 in React hooks in Streamlit",
     long_description="",
     long_description_content_type="text/plain",
-    url="https://github.com/andfanilo/streamlit-d3-demo",
+    url="https://github.com/vr-clarissa/streamlit-d3-demo",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
