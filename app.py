@@ -4,7 +4,7 @@ from typing import Tuple
 
 import streamlit as st
 
-from streamlit_d3_demo import d3_line
+from streamlit_d3_line import d3_line
 
 
 @st.cache

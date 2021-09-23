@@ -2,6 +2,7 @@ import os
 from typing import Dict
 from typing import List
 from typing import Tuple
+from datetime import date
 
 import streamlit.components.v1 as components
 
@@ -16,7 +17,7 @@ else:
 
 
 def d3_line(
-    data: List[Tuple[int, int]],
+    data: List[Tuple[date, int]],
     circle_radius: int = 15,
     circle_color: str = "#6495ed",
     height: int = 400,
